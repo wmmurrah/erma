@@ -1,0 +1,10 @@
+Package: erma
+Type: Package
+Title: ERMA Design and Analysis I and II course package
+Version: 0.1.0
+Author: William M. Murrah
+Maintainer: William M. Murrah <wmm0017@auburn.edu>
+Description: This package contains code, data, and functions for using R in ERMA 7300 and ERMA 7310.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
