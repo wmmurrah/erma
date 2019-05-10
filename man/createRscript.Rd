@@ -1,10 +1,10 @@
 \name{createRscript}
 \alias{createRscript}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
-
+\title{Create a new R script
+}
 \description{
-Create Blank R script with a heading auto filled for certain parameters. }
+Create Blank R script with a heading auto filled for certain parameters.
 }
 \usage{
 createRscript(filename, author = "name", subdir = "R/", open = TRUE)
@@ -25,7 +25,7 @@ createRscript(filename, author = "name", subdir = "R/", open = TRUE)
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+This function creates a script with a formatted heading, partially auto-filled.  This function promotes consistent documentation of R scripts.
 }
 \value{
 A R script with the following heading:
@@ -41,26 +41,13 @@ A R script with the following heading:
 # packages used ----------------------------------------------------------- \cr
 }
 
-\references{
-%% ~put references to the literature/web site here ~
-}
 \author{
-%%  ~~who you are~~
-}
-\note{
-%%  ~~further notes~~
-}
-
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+William M. Murrah
 }
 \examples{
-#  Create a script named `newScript.R`
-createRscript("newScript.R", name = "William M. Murrah ")
+#  Create a script named newScript.R
+createRscript("newScript.R", author = "William M. Murrah ")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{file}% use one of  RShowDoc("KEYWORDS")

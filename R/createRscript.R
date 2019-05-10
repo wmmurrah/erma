@@ -8,7 +8,7 @@
 createRscript <- function(filename,
                  author = "name",
                  subdir="R/", open=TRUE) {
-  lines = '#**************************************************************************
+  lines = "#**************************************************************************
 # Title: function.name
 # Author: author.name
 # Description:
@@ -17,7 +17,7 @@ createRscript <- function(filename,
 # Directory: getwd
 #**************************************************************************
 # packages used -----------------------------------------------------------
-  '
+"
   filepath <- paste0(subdir, filename)
   #lines = readLines(template)
   lines = sub('author.name', author, lines)
